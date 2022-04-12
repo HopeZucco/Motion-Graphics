@@ -434,14 +434,14 @@ nav ul li {
   margin-left: 4vw;
 }
 nav ul li a:link, nav ul li a:visited {
-  font-family: "Roboto Slab", serif;
-  color: #061928;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #72543A;
   transition: 0.25s;
   font-size: 1.125rem;
   font-weight: 300;
 }
 nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  color: #A97DA2;
+  color: #C48634;
 }
 
 /* =============
@@ -575,11 +575,12 @@ header > div aside a {
 }
 #content > div p {
   font-size: 1.125rem;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   line-height: 1.875rem;
   margin-left: auto;
   margin-right: auto;
-  width: 140%;
+  width: 950px;
   text-align: justify;
   color: #72543A;
-  transform: translate(-13%, 0);
+  transform: translate(-26%, 0);
 }

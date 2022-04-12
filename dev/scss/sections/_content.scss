@@ -31,19 +31,18 @@
             text-align: center;
         }
         p{
-            //text-align: center;
             font-size: rem-calc(18);
-            //font-stretch: ultra-expanded;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
             line-height: rem-calc(30);
             margin-left: auto;
             margin-right: auto;
-            //position: center;
-            width: 140%;
+          //  width: 150%;
+          width: 950px;
             //align-content: center;
             text-align: justify;
             color:$brown;
             //padding:0 0px;
-            transform: translate(-13%, 0);
+            transform: translate(-26%, 0);
         }
     }
 }

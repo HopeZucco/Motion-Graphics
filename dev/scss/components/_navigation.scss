@@ -16,14 +16,14 @@ nav{
             margin-left: 4vw;
 
             a:link, a:visited{
-                font-family: 'Roboto Slab', serif;
-                color:$blue;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                color:$brown;
                 transition: 0.25s;
                 font-size: rem-calc(18);
                 font-weight: 300;
 
                 &:hover, &:active{
-                    color: $purple;
+                    color: $caramel;
                 }
 
             }
