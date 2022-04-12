@@ -4,12 +4,13 @@
     grid-template-areas: ". content .";
     padding:64px 0;
 
+
     @include md{
         padding:100px 0;
         grid-template-columns: auto 80% auto;
     }
     @include lg{
-        padding:128px 0;
+        padding:50px 0;
         grid-template-columns: auto 80% auto;
     }
     @include xl{
@@ -26,11 +27,23 @@
         h1{
             font-size: rem-calc(35);
             margin-bottom: 10px;
+            color:$brown;
+            text-align: center;
         }
         p{
+            //text-align: center;
             font-size: rem-calc(18);
+            //font-stretch: ultra-expanded;
             line-height: rem-calc(30);
+            margin-left: auto;
+            margin-right: auto;
+            //position: center;
+            width: 140%;
+            //align-content: center;
             text-align: justify;
+            color:$brown;
+            //padding:0 0px;
+            transform: translate(-13%, 0);
         }
     }
 }

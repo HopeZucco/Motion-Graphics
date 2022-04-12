@@ -552,7 +552,7 @@ header > div aside a {
 }
 @media (min-width: 1024px) {
   #content {
-    padding: 128px 0;
+    padding: 50px 0;
     grid-template-columns: auto 80% auto;
   }
 }
@@ -572,9 +572,16 @@ header > div aside a {
 #content > div h1 {
   font-size: 2.1875rem;
   margin-bottom: 10px;
+  color: #72543A;
+  text-align: center;
 }
 #content > div p {
   font-size: 1.125rem;
   line-height: 1.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140%;
   text-align: justify;
+  color: #72543A;
+  transform: translate(-13%, 0);
 }
