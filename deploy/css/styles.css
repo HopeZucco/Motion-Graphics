@@ -372,8 +372,21 @@ a {
 /* =============
     Typography
 ============= */
-body {
-  font-family: "Roboto", sans-serif;
+body p {
+  font-family: "M PLUS Rounded 1c";
+  font-size: 22px;
+}
+body h1 {
+  font-family: "Sansita Swashed";
+  font-size: 22px;
+}
+body h2 {
+  font-family: "Sansita Swashed";
+  font-size: 22px;
+}
+body nav {
+  font-family: "M PLUS Rounded 1c";
+  font-size: 22px;
 }
 body h1, body h2, body h3, body h4 {
   margin: 0;
