@@ -496,6 +496,11 @@ header > div aside a {
   background-position: center;
   background-size: cover;
 }
+#hero > div article background-image {
+  background-image: url("../img/hero.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
 #hero > div article #hero-content {
   color: #fff;
   text-align: center;
@@ -504,7 +509,7 @@ header > div aside a {
   font-size: 5rem;
   font-weight: 900;
   line-height: 117px;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 10px 2px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
   #hero > div article #hero-content h1 {
@@ -520,7 +525,7 @@ header > div aside a {
   font-size: 2rem;
   font-weight: 400;
   line-height: 47px;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 8px 2px rgba(0, 0, 0, 0.25);
   margin-top: -25px;
 }
 @media (min-width: 768px) {
@@ -582,5 +587,5 @@ header > div aside a {
   width: 950px;
   text-align: justify;
   color: #72543A;
-  transform: translate(-26%, 0);
+  transform: translate(-18%, 0);
 }

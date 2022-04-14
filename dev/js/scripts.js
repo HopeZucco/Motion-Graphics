@@ -40,11 +40,20 @@ import { gsap } from "gsap";
 
 const mainTL = gsap.timeline();
 
+// mainTL
+// .from("#hero article", {duration:2, yPercent:50})
+// .from("#hero h2", {duration:0.5, y:200, rotation:180, color:"#ec6602", alpha:0}, "herotext")
+// .from("#hero h1", {duration:0.5, y:"+=200", rotation:180, alpha:0}, "herotext")
 mainTL
+.from(".cupMove", {duration:.75,xPercent:-50, alpha:0})
 .from("#hero article", {duration:2, yPercent:50})
-.from("#hero h2", {duration:0.5, y:200, rotation:180, color:"#ec6602", alpha:0}, "herotext")
-.from("#hero h1", {duration:0.5, y:"+=200", rotation:180, alpha:0}, "herotext")
-
-
-
+.from("#hero h2", {duration:0.5, y:200, yPercent:50, color:"#ec6602", alpha:0}, "herotext")
+.from("#hero h1", {duration:0.5, y:"+=200", yPercent:50, alpha:0}, "herotext")
+.from(".coffeehead", {duration:.5,xPercent:50, alpha:0})
+.from(".coffeecontent", {duration:.5,xPercent:50, alpha:0})
 ;
+//mainTL
+//.from("#coffee logo", {duration:2, yPercent:50})
+//.from("#coffee logo", {duration:0.5, y:200, rotation:180, color:"#ec6602", alpha:0}, "header img")
+//.from("#coffee logo", {duration:0.5, y:"+=200", rotation:180, alpha:0}, "header img")
+//;
