@@ -45,7 +45,7 @@ const mainTL = gsap.timeline();
 // .from("#hero h2", {duration:0.5, y:200, rotation:180, color:"#ec6602", alpha:0}, "herotext")
 // .from("#hero h1", {duration:0.5, y:"+=200", rotation:180, alpha:0}, "herotext")
 mainTL
-.from(".cupMove", {duration:.75,xPercent:-50, alpha:0})
+.from(".cupMove", {duration:.75,xPercent:-50, rotation:360, alpha:0})
 .from("#hero article", {duration:2, yPercent:50})
 .from("#hero h2", {duration:0.5, y:200, yPercent:50, color:"#ec6602", alpha:0}, "herotext")
 .from("#hero h1", {duration:0.5, y:"+=200", yPercent:50, alpha:0}, "herotext")
