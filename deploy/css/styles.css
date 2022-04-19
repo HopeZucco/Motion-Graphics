@@ -497,7 +497,6 @@ header > div aside a {
   background-size: cover;
 }
 #hero > div article background-image {
-  background-image: url("../img/hero.jpg");
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
